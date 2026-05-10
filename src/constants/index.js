@@ -11,10 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  // {
-  //   name: "Testimonials",
-  //   link: "#testimonials",
-  // },
+  {
+    name: "Education",
+    link: "#education",
+  },
 ];
 
 const words = [
@@ -199,6 +199,40 @@ const expCards = [
   },
 ];
 
+
+const educationCards = [
+  {
+    review:
+      "Mankomal achieved a 3.9 GPA earning Merit & Excellence Awards and President's Honours List recognition, with strong focus in AI, Machine Learning, and Software Engineering.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Bachelor of Engineering in Software Engineering",
+    institution: "Seneca Polytechnic, North York, Ontario",
+    date: "January 2024 - April 2027",
+    responsibilities: [
+      "Merit & Excellence Award recipient and President's Honours List honoree for outstanding academic achievement.",
+      "Specialized in Software Engineering and Data Science with focus on AI and full-stack development",
+      "Completed coursework in Data Mining, Artificial Intelligence, Machine Learning, Reinforcement Learning, DSA, DBMS, and Search Algorithms",
+      "Active Peer Mentor and participant in coding competitions and hackathons", 
+    ],
+  },
+  {
+    review:
+      "Gained hands-on experience in C, C++, Java, and Linux systems, building a strong technical foundation in hardware-software integration and database management.",
+    imgPath: "/images/exp2.png",
+    logoPath: "/images/logo2.png",
+    title: "Diploma in Computer engineering Technology",
+    institution: "Sheridan College, Brampton,  Ontario",
+    date: "January 2019 - August 2020",
+    responsibilities: [
+      "Completed core programming modules in C, C++, Java, and Linux systems.",
+      "Built hands-on projects in database management and I/O device programming.",
+      "Strong foundation in hardware-software integration and object-oriented programming.",
+    ],
+  },
+];
+
+
 const expLogos = [
   {
     name: "logo1",
@@ -289,6 +323,7 @@ export {
   counterItems,
   expCards,
   expLogos,
+  educationCards,  
   testimonials,
   socialImgs,
   techStackIcons,

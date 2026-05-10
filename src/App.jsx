@@ -8,12 +8,14 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+import Education from "./sections/Education";
 
 const App = () => (
   <>
     <Navbar />
     <Hero />
     <ShowcaseSection />
+    <Education />
     {/* <LogoShowcase /> */}
     <FeatureCards />
     <Experience />

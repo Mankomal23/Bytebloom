@@ -69,6 +69,52 @@ const AppShowcase = () => {
 
           <div className="first-project-wrapper overflow-hidden">
 
+
+
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper ">
+                <img
+                  src="/images/project4.png"
+                  alt="Sentiment Dashboard"
+                />
+              </div>
+              <h2>
+                <a href="https://huggingface.co/spaces/mankomal/sentiment-dashboard" 
+                    className="text-blue-200 underline hover:text-blue-400"
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                  The Sentiment Dashboard 
+                </a>
+              </h2>
+              
+              <p className="text-content">
+                A real-time NLP pipeline that classifies text as positive, negative, or neutral using Cardiff RoBERTa. Features live WebSocket streaming, topic detection, and an interactive trend dashboard. Built with FastAPI, HuggingFace Transformers, and Chart.js.
+              </p>
+            </div>
+
+
+            <div className="project" ref={libraryRef}>
+              <div className="image-wrapper ">
+                <img
+                  src="/images/project5.png"
+                  alt="Customer Churn Prediction API"
+                />
+              </div>
+              <h2>
+                <a href="https://huggingface.co/spaces/mankomal/churn-api" 
+                    className="text-blue-200 underline hover:text-blue-400"
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                  The Customer Churn Prediction API 
+                </a>
+              </h2>
+              
+              <p className="text-content">
+                An end-to-end ML system that predicts customer churn probability using an XGBoost + LightGBM ensemble tuned with Optuna. Every prediction includes SHAP-based explanations showing exactly why a customer is at risk. Served via a FastAPI REST endpoint with an interactive UI and Swagger docs.
+              </p>
+            </div>
+
+
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper ">
                 <img
@@ -78,7 +124,7 @@ const AppShowcase = () => {
               </div>
               <h2>
                 <a href="https://yt-car-app-61f7a2c9ef66.herokuapp.com/" 
-                    class="text-blue-200 underline hover:text-blue-400 "
+                    className="text-blue-200 underline hover:text-blue-400 "
                     target="_blank" 
                     rel="noopener noreferrer">
                   Car Inventory Management System
@@ -100,7 +146,7 @@ const AppShowcase = () => {
               </div>
               <h2>
                 <a href="https://mankomal.pythonanywhere.com/" 
-                    class="text-blue-200 underline hover:text-blue-400"
+                    className="text-blue-200 underline hover:text-blue-400"
                     target="_blank" 
                     rel="noopener noreferrer">
                   The Tweet Management Platform 
@@ -113,7 +159,7 @@ const AppShowcase = () => {
               </p>
             </div>
 
-            <div className="project" ref={libraryRef}>
+            {/* <div className="project" ref={libraryRef}>
               <div className="image-wrapper ">
                 <img
                   src="/images/project3.png"
@@ -122,7 +168,7 @@ const AppShowcase = () => {
               </div>
               <h2>
                 <a href="https://autism-predictor-mankomal.streamlit.app/" 
-                    class="text-blue-200 underline hover:text-blue-400"
+                    className="text-blue-200 underline hover:text-blue-400"
                     target="_blank" 
                     rel="noopener noreferrer">
                   Autism Predictor
@@ -133,7 +179,7 @@ const AppShowcase = () => {
                 It is autism predictor model, built using various Pyhton libraries and Data Manipulation Techniques. 
               </p>
 
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
